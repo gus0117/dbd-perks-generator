@@ -8,6 +8,10 @@
   height: 150px;
 }
 
+.perk-name {
+  padding: 5px 1px;
+}
+
 .perk-owner{
   color: aquamarine;
 }

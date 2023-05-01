@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/Perk.css";
 const Perk = ({ perkName, description, owner, url }) => {
+  useEffect(()=>{
+    console.log(perkName)
+  },[])
   return (
     <div className="perk-container">
       <img
         className="perk-img"
-        src={`../../assets/perks/aceInTheHole.png`}
+        src={`../../assets/perks/${url}.png`}
         alt={`${description} icon`}
       />
       <h4 className="perk-name">{perkName}</h4>

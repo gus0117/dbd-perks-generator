@@ -7,7 +7,7 @@ https://dbd-randomizer.com
 
 */
 
-const survPerks = [
+const survperks = [
   {
     perkName: "As en la manga",
     owner: "Ace",
@@ -123,500 +123,500 @@ const survPerks = [
     url: "botanyKnowledge"
   },
   {
-    perKName:"Breakdown",
-    owner:"Jeff Johansen",
-    description:"Una descripcion",
+    perkName: "Breakdown",
+    owner: "Jeff Johansen",
+    description: "Una descripcion",
     url: "breakdown"
   },
   {
-    perKName:"Breakout",
+    perkName: "Breakout",
     owner:"Yui Kamura",
     description:"Una descripcion",
     url: "breakout"
   },
   {
-    perKName:"Sujetate",
+    perkName: "Sujetate",
     owner:"Ashly Willams",
     description:"Una descripcion",
-    url: "bukleUp"
+    url: "buckleUp"
   },
   {
-    perKName:"Built To Last",
+    perkName:"Built To Last",
     owner:"Felix Richter",
     description:"Una descripcion",
     url: "builtToLast"
   },
   {
-    perKName:"Espiritu Calmado",
+    perkName:"Espiritu Calmado",
     owner:"Jake Park",
     description:"Una descripcion",
     url: "calmSpirit"
   },
   {
-    perKName:"Camaraderia",
+    perkName:"Camaraderia",
     owner:"Steve Harrington",
     description:"Una descripcion",
     url: "camaraderie"
   },
   {
-    perKName:"Clarividencia",
+    perkName:"Clarividencia",
     owner:"Mikaela Reid",
     description:"Una descripcion",
     url: "Clairvoyance"
   },
   {
-    perKName:"Contramedida",
+    perkName:"Contramedida",
     owner:"Jill Valentine",
     description:"Una descripcion",
     url: "Counterforce"
   },
   {
-    perKName:"Baila conmigo",
+    perkName:"Baila conmigo",
     owner:"Kate Denson",
     description:"Una descripcion",
     url: "danceWithMe"
   },
   {
-    perKName:"Dark Theory",
+    perkName:"Dark Theory",
     owner:"Yoichi Asakawa",
     description:"Una descripcion",
     url: "darkTheory"
   },
   {
-    perKName:"Fajador",
+    perkName:"Fajador",
     owner:"David King",
     description:"Una descripcion",
     url: "DeadHard"
   },
   {
-    perKName:"Engaño",
+    perkName:"Engaño",
     owner:"Elodi Rakoto",
     description:"Una descripcion",
     url: "deception"
   },
   {
-    perKName:"Golpe Decisivo",
+    perkName:"Golpe Decisivo",
     owner:"Lauri Strode",
     description:"Una descripcion",
     url: "decisiveStrike"
   },
   {
-    perKName:"Deja Vu",
+    perkName:"Deja Vu",
     owner:"Libre",
     description:"Una descripcion",
     url: "dejaVu"
   },
   {
-    perKName:"Liberacion",
+    perkName:"Liberacion",
     owner:"Adam Franscis",
     description:"Una descripcion",
     url: "deliverance"
   },
   {
-    perKName:"Medidas Desesperadas",
+    perkName:"Medidas Desesperadas",
     owner:"Felix Richter",
     description:"Una descripcion",
     url: "desperateMeasures"
   },
   {
-    perKName:"Corazonada",
+    perkName:"Corazonada",
     owner:"Detective Tapp",
     description:"Una descripcion",
     url: "detectivesHunch"
   },
   {
-    perKName:"Distorcion",
+    perkName:"Distorcion",
     owner:"Jeff Johansen",
     description:"Una descripcion",
     url: "distortion"
   },
   {
-    perKName:"Distressing",
-    owner:"",
+    perkName:"Distressing",
+    owner:"Libre",
     description:"Una descripcion",
-    url: ""
+    url: "distressing"
   },
   {
-    perKName:"Distraccion",
+    perkName:"Distraccion",
     owner:"Adam Franscis",
     description:"Una descripcion",
     url: "diversion"
   },
   {
-    perKName:"Conexion Empatica",
+    perkName:"Conexion Empatica",
     owner:"Yoichi Asakawa",
     description:"Una descripcion",
     url: "empathicConnection"
   },
   {
-    perKName:"Empatia",
+    perkName:"Empatia",
     owner:"Claudette Morel",
     description:"Una descripcion",
     url: "empathy"
   },
   {
-    perKName:"Autopercepcion",
+    perkName:"Autopercepcion",
     owner:"Nancy Wheeler",
     description:"Una descripcion",
     url: "fixated"
   },
   {
-    perKName:"Granada Aturdidora",
+    perkName:"Granada Aturdidora",
     owner:"Leon S. Kennedy",
     description:"Una descripcion",
     url: "Flashbang"
   },
   {
-    perKName:"Nos Vemos",
+    perkName:"Nos Vemos",
     owner:"Ashly Willams",
     description:"Una descripcion",
     url: "flipFlop"
   },
   {
-    perKName:"Por la Gente",
+    perkName:"Por la Gente",
     owner:"Zarina Kassir",
     description:"Una descripcion",
     url: "forThePeople"
   },
   {
-    perKName:"Head On",
+    perkName:"Head On",
     owner:"Jane Romero",
     description:"Una descripcion",
     url: "headOn"
   },
   {
-    perKName:"Esperanza",
+    perkName:"Esperanza",
     owner:"Libre",
     description:"Una descripcion",
     url: "hope"
   },
   {
-    perKName:"Fuerza Interior",
+    perkName:"Fuerza Interior",
     owner:"Nancy Wheeler",
     description:"Una descripcion",
     url: "innerStrength"
   },
   {
-    perKName:"Voluntad de Hierro",
+    perkName:"Voluntad de Hierro",
     owner:"Jake Park",
     description:"Una descripcion",
     url: "ironWill"
   },
   {
-    perKName:"Familia",
+    perkName:"Familia",
     owner:"Libre",
     description:"Una descripcion",
     url: "kindred"
   },
   {
-    perKName:"Lider",
+    perkName:"Lider",
     owner:"Dwight Fairfield",
     description:"Una descripcion",
     url: "leader"
   },
   {
-    perKName:"Abandonado a tu suerte",
+    perkName:"Abandonado a tu suerte",
     owner:"Bill Overbeck",
     description:"Una descripcion",
     url: "leftBehind"
   },
   {
-    perKName:"Peso Ligero",
+    perkName:"Peso Ligero",
     owner:"Libre",
     description:"Una descripcion",
     url: "lightweight"
   },
   {
-    perKName:"Agilidad",
+    perkName:"Agilidad",
     owner:"Feng Ming",
     description:"Una descripcion",
     url: "lithe"
   },
   {
-    perKName:"Lucky Break",
+    perkName:"Lucky Break",
     owner:"Yui Kimura",
     description:"Una descripcion",
     url: "luckyBreak"
   },
   {
-    perKName:"Temple del Hombre",
+    perkName:"Temple del Hombre",
     owner:"Ashly Williams",
     description:"Una descripcion",
     url: "mettleOfMan"
   },
   {
-    perKName:"Me la pela",
+    perkName:"Me la pela",
     owner:"David King",
     description:"Una descripcion",
     url: "NoMither"
   },
   {
-    perKName:"Nadie se queda atras",
+    perkName:"Nadie se queda atras",
     owner:"Libre",
     description:"Una descripcion",
     url: "noOneLeftBehind"
   },
   {
-    perKName:"Objeto de Obsesion",
+    perkName:"Objeto de Obsesion",
     owner:"Lauri Strode",
     description:"Una descripcion",
     url: "objectOfObsession"
   },
   {
-    perKName:"Off the Record",
+    perkName:"Off the Record",
     owner:"Zarina Kassir",
     description:"Una descripcion",
     url: "offTheRecord"
   },
   {
-    perKName:"Open Handed",
+    perkName:"Open Handed",
     owner:"Ace Visconti",
     description:"Una descripcion",
     url: "openHanded"
   },
   {
-    perKName:"Consejo de Papá",
+    perkName:"Consejo de Papá",
     owner:"Yoichi Asakawa",
     description:"Una descripcion",
     url: "parentalGuidance"
   },
   {
-    perKName:"Farmacia",
+    perkName:"Farmacia",
     owner:"Quentin Smith",
     description:"Una descripcion",
     url: "pharmacy"
   },
   {
-    perKName:"Instinto Saqueador",
+    perkName:"Instinto Saqueador",
     owner:"Libre",
     description:"Una descripcion",
     url: "plunderersInstinct"
   },
   {
-    perKName:"Poised",
+    perkName:"Poised",
     owner:"Jane Romero",
     description:"Una descripcion",
     url: "poised"
   },
   {
-    perKName:"Lucha de poderes",
+    perkName:"Lucha de poderes",
     owner:"Elody Rakkoto",
     description:"Una descripcion",
     url: "powerStruggle"
   },
   {
-    perKName:"Premonicion",
+    perkName:"Premonicion",
     owner:"Libre",
     description:"Una descripcion",
     url: "premonition"
   },
   {
-    perKName:"Demuestra lo que vales",
+    perkName:"Demuestra lo que vales",
     owner:"Dwight Fairfield",
     description:"Una descripcion",
     url: "proveThyself"
   },
   {
-    perKName:"Velocidad Silenciosa",
+    perkName:"Velocidad Silenciosa",
     owner:"Meg Thomas",
     description:"Una descripcion",
     url: "quickAndQuiet"
   },
   {
-    perKName:"Arenque Rojo",
+    perkName:"Arenque Rojo",
     owner:"Zarina Kassir",
     description:"Una descripcion",
     url: "redHerring"
   },
   {
-    perKName:"Repressed Alliance",
+    perkName:"Repressed Alliance",
     owner:"Heather Mason",
     description:"Una descripcion",
     url: "repressedAlliance"
   },
   {
-    perKName:"Resiliencia",
+    perkName:"Resiliencia",
     owner:"Libre",
     description:"Una descripcion",
     url: "resilience"
   },
   {
-    perKName:"Resurgence",
+    perkName:"Resurgence",
     owner:"Jill Valentine",
     description:"Una descripcion",
-    url: "Resirgence"
+    url: "Resurgence"
   },
   {
-    perKName:"Espíritu de Novato",
+    perkName:"Espíritu de Novato",
     owner:"Leon S. Kennedy",
     description:"Una descripcion",
     url: "RookieSpirit"
   },
   {
-    perKName:"Saboteador",
+    perkName:"Saboteador",
     owner:"Jake Park",
     description:"Una descripcion",
     url: "saboteur"
   },
   {
-    perKName:"Segundo Aliento",
+    perkName:"Segundo Aliento",
     owner:"Steve Harrington",
     description:"Una descripcion",
     url: "secondWind"
   },
   {
-    perKName:"Autocuración",
+    perkName:"Autocuración",
     owner:"Claudette Morel",
     description:"Una descripcion",
     url: "selfCare"
   },
   {
-    perKName:"Carne Resbaladiza",
+    perkName:"Carne Resbaladiza",
     owner:"Libre",
     description:"Una descripcion",
     url: "slipperyMeat"
   },
   {
-    perKName:"Caza Menor",
+    perkName:"Caza Menor",
     owner:"Libre",
     description:"Una descripcion",
     url: "smallGame"
   },
   {
-    perKName:"Solo quedo Yo",
+    perkName:"Solo quedo Yo",
     owner:"Laurie Strode",
     description:"Una descripcion",
     url: "soleSurvivor"
   },
   {
-    perKName:"Solidaridad",
+    perkName:"Solidaridad",
     owner:"Jane Romero",
     description:"Una descripcion",
     url: "solidarity"
   },
   {
-    perKName:"Salvaguarda el Alma",
+    perkName:"Salvaguarda el Alma",
     owner:"Heather Mason",
     description:"Una descripcion",
     url: "soulGuard"
   },
   {
-    perKName:"Escalofríos",
+    perkName:"Escalofríos",
     owner:"Libre",
     description:"Una descripcion",
     url: "spineChill"
   },
   {
-    perKName:"Esprint",
+    perkName:"Esprint",
     owner:"Meg Thomas",
     description:"Una descripcion",
     url: "sprintBurst"
   },
   {
-    perKName:"Bajo Vigilancia",
+    perkName:"Bajo Vigilancia",
     owner:"Detective Tapp",
     description:"Una descripcion",
     url: "stakeOut"
   },
   {
-    perKName:"Con Calle",
+    perkName:"Con Calle",
     owner:"Nea Carlson",
     description:"Una descripcion",
     url: "streetwise"
   },
   {
-    perKName:"Boon Exponential",
+    perkName:"Boon Exponential",
     owner:"Jonah Vazquez",
     description:"Una descripcion",
     url: "BoonExponential"
   },
   {
-    perKName:"CorrectiveAction",
+    perkName:"CorrectiveAction",
     owner:"Jonah Vazquez",
     description:"Una descripcion",
     url: "CorrectiveAction"
   },
   {
-    perKName:"Overcome",
+    perkName:"Overcome",
     owner:"Jonah Vazquez",
     description:"Una descripcion",
     url: "Overcome"
   },
   {
-    perKName:"Pericia Técnica",
+    perkName:"Pericia Técnica",
     owner:"Feng Ming",
     description:"Una descripcion",
     url: "technician"
   },
   {
-    perKName:"Tenacidad",
+    perkName:"Tenacidad",
     owner:"Detective Tapp",
     description:"Una descripcion",
     url: "tenacity"
   },
   {
-    perKName:"Esto no esta pasando",
+    perkName:"Esto no esta pasando",
     owner:"Libre",
     description:"Una descripcion",
     url: "thisIsNotHappening"
   },
   {
-    perKName:"Inquebrantable",
+    perkName:"Inquebrantable",
     owner:"Bill Overbeck",
     description:"Una descripcion",
     url: "unbreakable"
   },
   {
-    perKName:"Up the Ante",
+    perkName:"Up the Ante",
     owner:"Ace Visconti",
     description:"Una descripcion",
     url: "upTheAnte"
   },
   {
-    perKName:"Evacion Urbana",
+    perkName:"Evacion Urbana",
     owner:"Nea Carlson",
     description:"Una descripcion",
     url: "urbanEvasion"
   },
   {
-    perKName:"Vigilia",
+    perkName:"Vigilia",
     owner:"Quentin Smith",
     description:"Una descripcion",
     url: "vigil"
   },
   {
-    perKName:"Visionario",
+    perkName:"Visionario",
     owner:"Felix Richter",
     description:"Una descripcion",
     url: "visionary"
   },
   {
-    perKName:"Despierta",
+    perkName:"Despierta",
     owner:"Quentin Smith",
     description:"Una descripcion",
     url: "wakeUp"
   },
   {
-    perKName:"Lo conseguiremos",
+    perkName:"Lo conseguiremos",
     owner:"Libre",
     description:"Una descripcion",
     url: "wellMakeit"
   },
   {
-    perKName:"Vamos a vivir para siempre",
+    perkName:"Vamos a vivir para siempre",
     owner:"David King",
     description:"Una descripcion",
     url: "WereGonnaLiveForever"
   },
   {
-    perKName:"Oportunidades",
+    perkName:"Oportunidades",
     owner:"Kate Denson",
     description:"Una descripcion",
     url: "windowsOfOpportunity"
   }
 ];
 
-export default survPerks;
+export default survperks;
 
 // Survis: Dwight Fairfield, Meg Thomas, Claudette Morel, Jake Park, Nea Karlsson, Laurie Strode, Ace Visconti, Bill Overbeck, Feng Min, David King
 //         Quentin Smith, David Tapp, Kate Denson, Adam Francis, Jeff Johansen, Jane Romero, Ash Williams, Nancy Wheeler, Steve Harrington, Yui Kimura

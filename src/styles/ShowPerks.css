@@ -1,0 +1,11 @@
+.perks-list {
+    margin: 20px 5px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 180px);
+}
+
+.title-1{
+    margin: 20px 5px;
+    text-transform: uppercase;
+}
