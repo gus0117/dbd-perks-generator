@@ -1,6 +1,6 @@
 import './App.css';
 import PerksGenerator from "./components/PerksGenerator";
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+import { Route, Routes, Navigate, HashRouter } from 'react-router-dom';
 import Home from './components/Home';
 import ShowPerks from './components/ShowPerks';
 import NavBar from './components/NavBar/NavBar'
@@ -8,7 +8,7 @@ import NavBar from './components/NavBar/NavBar'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path='/' element={ <NavBar /> }>
             <Route index element={ <Home /> } />
@@ -18,7 +18,7 @@ function App() {
             <Route path='*' element={ <Navigate replace to="/" />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
