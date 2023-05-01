@@ -1,0 +1,10 @@
+.player-container {
+  width: 900px;
+  display: inline-block;
+}
+.player-name {
+  text-align: center;
+}
+.perks-container {
+  padding: 0 30px;
+}
