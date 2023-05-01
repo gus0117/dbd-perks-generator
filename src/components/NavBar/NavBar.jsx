@@ -6,14 +6,16 @@ import LogoDBD from '../../images/logo.png';
 const NavBar = () => {
   return (
     <>
-      <div className='navbar'>
+      <nav className='navbar'>
+        <div className="logo">
+          <img className='img-logo'src={LogoDBD} alt='Logo'/>
+        </div>
         <ul>
-          <li><img className='img-logo'src={LogoDBD}></img></li>
-          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/'>Home</NavLink></li>
-          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/showPerks'>Perks List</NavLink></li>
-          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/perkGenerator'>Generate Build</NavLink></li>
+          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/'>Inicio</NavLink></li>
+          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/showPerks'>Survi Perks</NavLink></li>
+          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/perkGenerator'>Generar Build</NavLink></li>
         </ul>
-      </div>
+      </nav>
 
       <section>
         <Outlet></Outlet>
