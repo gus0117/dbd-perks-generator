@@ -1,0 +1,32 @@
+
+/* SEARCH */
+
+.search {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dfdfdf;
+    max-width: 680px;
+  
+  }
+  
+  .search input {
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 3px 8px;
+  }
+  
+  .btn-search {
+    padding: 3px 8px;
+  }
+  
+  .msg {
+    display: flex;
+    justify-content: center;
+    color: #dfdfdf;
+    background-color: #0473ce;
+    padding: 10px 15px;
+    font-size: 20px;
+  }

@@ -1,9 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../styles/Perk.css";
 const Perk = ({ perkName, description, owner, url }) => {
-  useEffect(()=>{
-    console.log(perkName)
-  },[])
   return (
     <div className="perk-container">
       <img
