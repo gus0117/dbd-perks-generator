@@ -19,9 +19,9 @@ const SearchInput = ({ perks, getFilteredList }) => {
 
   return (
     <div className='search'>
-        <label>Search</label>
+        <label>Buscar</label>
         <input className='input-search' type="text" name="verb" value={filter} onChange={handleFilter} />
-        <button className='btn-search' onClick={() => setFilter("")}>Clear</button>
+        <button className='btn-search' onClick={() => setFilter("")}>Limpiar</button>
     </div>
   )
 }

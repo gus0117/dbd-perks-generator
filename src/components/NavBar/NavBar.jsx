@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, NavLink } from 'react-router-dom';
 import '../../styles/NavBar.css';
 import LogoDBD from '../../images/logo.png';
 
@@ -9,9 +9,9 @@ const NavBar = () => {
       <div className='navbar'>
         <ul>
           <li><img className='img-logo'src={LogoDBD}></img></li>
-          <li><Link className='active' to='/'>Home</Link></li>
-          <li><Link to='/showPerks'>Perks List</Link></li>
-          <li><Link to='/perkGenerator'>Generate Build</Link></li>
+          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/'>Home</NavLink></li>
+          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/showPerks'>Perks List</NavLink></li>
+          <li><NavLink className={({isActive, isPending}) => isPending ? "pending" : isActive ? "active" : ""} to='/perkGenerator'>Generate Build</NavLink></li>
         </ul>
       </div>
 
