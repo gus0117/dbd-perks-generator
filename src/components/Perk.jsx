@@ -5,7 +5,7 @@ const Perk = ({ perkName, description, owner, url }) => {
     <div className="perk-container">
       <img
         className="perk-img"
-        src={`../../assets/perks/${url}.png`}
+        src={`assets/perks/${url}.png`}
         alt={`${description} icon`}
       />
       <h4 className="perk-name">{perkName}</h4>
