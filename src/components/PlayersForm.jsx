@@ -35,7 +35,7 @@ const PlayersForm = (props) => {
 
   const sendFormData = (event) => {
     event.preventDefault();
-    let perksID = uniqueRandomListGenerator(16, 4);
+    let perksID = uniqueRandomListGenerator(survPerks.length, 4);
     const newPlayer = {
       id: generarId(),
       playerName: playerNameInput,

@@ -21,7 +21,7 @@ const survperks = [
     url: "adrenaline"
   },
   {
-    perkName:"Aftercare",
+    perkName:"Postratamiento",
     owner:"Jeff Johansen",
     description:"Una descripcion",
     url: "aftercare"
@@ -33,13 +33,13 @@ const survperks = [
     url: "alert"
   },
   {
-    perkName:"Any means necessary",
+    perkName:"Por Cualquier Medio",
     owner:"Yui Kamura",
     description:"Una descripcion",
     url: "anyMeansNecessary"
   },
   {
-    perkName: "Appraisal",
+    perkName: "Detallista",
     owner: "Elodi Rakoto",
     description: "Una descripcion",
     url: "appraisal"
@@ -51,7 +51,7 @@ const survperks = [
     url: "autodidact"
   },
   {
-    perkName:"Baby sitter",
+    perkName:"Guardian",
     owner:"Steve Harrington",
     description:"Una descripcion",
     url: "babySitter"
@@ -63,13 +63,13 @@ const survperks = [
     url: "balancedLanding"
   },
   {
-    perkName:"betterTogether",
+    perkName:"Percepción de la situación",
     owner:"Nancy Waller",
     description:"Una descripcion",
     url: "betterTogether"
   },
   {
-    perkName:"Bite the Bullet",
+    perkName:"Aguante el dolor",
     owner:"Leon S. Kennedy",
     description:"Una descripcion",
     url: "BiteTheBullet"
@@ -105,7 +105,7 @@ const survperks = [
     url: "BoonCircleOfHealing"
   },
   {
-    perkName:"Boon Shadow Step",
+    perkName:"Bendicion: Paso de las sombras",
     owner:"Mikaela Reid",
     description:"Una descripcion",
     url: "BoonShadowStep"
@@ -123,13 +123,13 @@ const survperks = [
     url: "botanyKnowledge"
   },
   {
-    perkName: "Breakdown",
+    perkName: "Ruptura",
     owner: "Jeff Johansen",
     description: "Una descripcion",
     url: "breakdown"
   },
   {
-    perkName: "Breakout",
+    perkName: "Fuga",
     owner:"Yui Kamura",
     description:"Una descripcion",
     url: "breakout"
@@ -141,7 +141,7 @@ const survperks = [
     url: "buckleUp"
   },
   {
-    perkName:"Built To Last",
+    perkName:"Diseñado para durar",
     owner:"Felix Richter",
     description:"Una descripcion",
     url: "builtToLast"
@@ -177,7 +177,7 @@ const survperks = [
     url: "danceWithMe"
   },
   {
-    perkName:"Dark Theory",
+    perkName:"Bendicion: Teoría oscura",
     owner:"Yoichi Asakawa",
     description:"Una descripcion",
     url: "darkTheory"
@@ -207,7 +207,7 @@ const survperks = [
     url: "dejaVu"
   },
   {
-    perkName:"Liberacion",
+    perkName:"Liberación",
     owner:"Adam Franscis",
     description:"Una descripcion",
     url: "deliverance"
@@ -229,12 +229,6 @@ const survperks = [
     owner:"Jeff Johansen",
     description:"Una descripcion",
     url: "distortion"
-  },
-  {
-    perkName:"Distressing",
-    owner:"Libre",
-    description:"Una descripcion",
-    url: "distressing"
   },
   {
     perkName:"Distraccion",
@@ -279,7 +273,7 @@ const survperks = [
     url: "forThePeople"
   },
   {
-    perkName:"Head On",
+    perkName:"De Frente",
     owner:"Jane Romero",
     description:"Una descripcion",
     url: "headOn"
@@ -333,7 +327,7 @@ const survperks = [
     url: "lithe"
   },
   {
-    perkName:"Lucky Break",
+    perkName:"Golpe de Suerte",
     owner:"Yui Kimura",
     description:"Una descripcion",
     url: "luckyBreak"
@@ -352,7 +346,7 @@ const survperks = [
   },
   {
     perkName:"Nadie se queda atras",
-    owner:"Libre",
+    owner:"Todos",
     description:"Una descripcion",
     url: "noOneLeftBehind"
   },
@@ -363,13 +357,13 @@ const survperks = [
     url: "objectOfObsession"
   },
   {
-    perkName:"Off the Record",
+    perkName:"Extraoficialmente",
     owner:"Zarina Kassir",
     description:"Una descripcion",
     url: "offTheRecord"
   },
   {
-    perkName:"Open Handed",
+    perkName:"A Mano Descubierta",
     owner:"Ace Visconti",
     description:"Una descripcion",
     url: "openHanded"
@@ -393,7 +387,7 @@ const survperks = [
     url: "plunderersInstinct"
   },
   {
-    perkName:"Poised",
+    perkName:"Serenidad",
     owner:"Jane Romero",
     description:"Una descripcion",
     url: "poised"
@@ -405,7 +399,7 @@ const survperks = [
     url: "powerStruggle"
   },
   {
-    perkName:"Premonicion",
+    perkName:"Premonición",
     owner:"Libre",
     description:"Una descripcion",
     url: "premonition"
@@ -429,7 +423,7 @@ const survperks = [
     url: "redHerring"
   },
   {
-    perkName:"Repressed Alliance",
+    perkName:"Alianza Reprimida",
     owner:"Heather Mason",
     description:"Una descripcion",
     url: "repressedAlliance"
@@ -441,7 +435,7 @@ const survperks = [
     url: "resilience"
   },
   {
-    perkName:"Resurgence",
+    perkName:"Resurgimiento",
     owner:"Jill Valentine",
     description:"Una descripcion",
     url: "Resurgence"
@@ -525,19 +519,19 @@ const survperks = [
     url: "streetwise"
   },
   {
-    perkName:"Boon Exponential",
+    perkName:"Bendición: Exponencial",
     owner:"Jonah Vazquez",
     description:"Una descripcion",
     url: "BoonExponential"
   },
   {
-    perkName:"CorrectiveAction",
+    perkName:"Corrección",
     owner:"Jonah Vazquez",
     description:"Una descripcion",
     url: "CorrectiveAction"
   },
   {
-    perkName:"Overcome",
+    perkName:"Superar",
     owner:"Jonah Vazquez",
     description:"Una descripcion",
     url: "Overcome"
@@ -567,7 +561,7 @@ const survperks = [
     url: "unbreakable"
   },
   {
-    perkName:"Up the Ante",
+    perkName:"Subir la Apuesta",
     owner:"Ace Visconti",
     description:"Una descripcion",
     url: "upTheAnte"
@@ -600,7 +594,7 @@ const survperks = [
     perkName:"Lo conseguiremos",
     owner:"Libre",
     description:"Una descripcion",
-    url: "wellMakeit"
+    url: "wellMakeIt"
   },
   {
     perkName:"Vamos a vivir para siempre",
@@ -613,6 +607,114 @@ const survperks = [
     owner:"Kate Denson",
     description:"Una descripcion",
     url: "windowsOfOpportunity"
+  },
+  {
+    perkName:"Enfoque Interno",
+    owner:"Haddie Kaur",
+    description:"Una descripcion",
+    url: "innerFocus"
+  },
+  {
+    perkName:"Manifiesto Residual",
+    owner:"Haddie Kaur",
+    description:"Una descripcion",
+    url: "residualManifest"
+  },
+  {
+    perkName:"Demasiado Entuciasta",
+    owner:"Haddie Kaur",
+    description:"Una descripcion",
+    url: "overzealous"
+  },
+  {
+    perkName:"Sistema de Espionaje",
+    owner:"Ada Wong",
+    description:"Una descripcion",
+    url: "wiretap"
+  },
+  {
+    perkName:"Curación Reactiva",
+    owner:"Ada Wong",
+    description:"Una descripcion",
+    url: "wiretap"
+  },
+  {
+    perkName:"Perfil Bajo",
+    owner:"Ada Wong",
+    description:"Una descripcion",
+    url: "lowProfile"
+  },
+  {
+    perkName:"Mejor que Nuevo",
+    owner:"Rebecca Chambers",
+    description:"Una descripcion",
+    url: "betterThanNew"
+  },
+  {
+    perkName:"Consuelo",
+    owner:"Rebecca Chambers",
+    description:"Una descripcion",
+    url: "reassurance"
+  },
+  {
+    perkName:"Hiperconcentración",
+    owner:"Rebecca Chambers",
+    description:"Una descripcion",
+    url: "hyperfocus"
+  },
+  {
+    perkName:"Energía Potencial",
+    owner:"Vittorio Toscano",
+    description:"Una descripcion",
+    url: "potentialEnergy"
+  },
+  {
+    perkName:"Conocimiento de la Niebla",
+    owner:"Vittorio Toscano",
+    description:"Una descripcion",
+    url: "fogwise"
+  },
+  {
+    perkName:"Táctica Rapida",
+    owner:"Vittorio Toscano",
+    description:"Una descripcion",
+    url: "vittoriosGambit"
+  },
+  {
+    perkName:"Suéltate",
+    owner:"Thalita Lyra",
+    description:"Una descripcion",
+    url: "cutLoose"
+  },
+  {
+    perkName:"Competencia Amistosa",
+    owner:"Thalita Lyra",
+    description:"Una descripcion",
+    url: "friendlyCompetition"
+  },
+  {
+    perkName:"Trabajo en Equipo: El poder de Dos",
+    owner:"Thalita Lyra",
+    description:"Una descripcion",
+    url: "teamworkPowerOfTwo"
+  },
+  {
+    perkName:"Personaje Secundario",
+    owner:"Renato Lyra",
+    description:"Una descripcion",
+    url: "backgroundPlayer"
+  },
+  {
+    perkName:"Impulso Sangriento",
+    owner:"Renato Lyra",
+    description:"Una descripcion",
+    url: "bloodRush"
+  },
+  {
+    perkName:"Trabajo en Equipo: Sigilo Colectivo",
+    owner:"Renato Lyra",
+    description:"Una descripcion",
+    url: "teamworkCollectiveStealth"
   }
 ];
 
